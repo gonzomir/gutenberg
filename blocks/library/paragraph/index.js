@@ -173,6 +173,7 @@ registerBlockType( 'core/paragraph', {
 				onMerge={ mergeBlocks }
 				onReplace={ onReplace }
 				placeholder={ placeholder || __( 'New Paragraph' ) }
+				hidePlaceholder={ !! focus }
 			/>,
 		];
 	},
